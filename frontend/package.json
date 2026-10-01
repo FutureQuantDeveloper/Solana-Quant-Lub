@@ -1,0 +1,29 @@
+{
+  "name": "solana-quant-research-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3000",
+    "typecheck": "tsc --noEmit",
+    "prepare:browser": "node ../scripts/prepare-browser.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.7",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "recharts": "3.1.2",
+    "lucide-react": "0.468.0",
+    "idb-keyval": "6.2.2",
+    "pyodide": "0.27.7"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.15.3",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.1.7",
+    "@tailwindcss/postcss": "4.1.7"
+  }
+}

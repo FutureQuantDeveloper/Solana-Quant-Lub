@@ -1,0 +1,1 @@
+{"name":"solana-quant-research-lab-monorepo","private":true,"version":"1.0.0","scripts":{"build":"node scripts/build-static.mjs","typecheck":"npm --prefix frontend run typecheck"}}
